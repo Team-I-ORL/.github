@@ -6,11 +6,11 @@ Our organization's codebase is structured into several specialized repositories,
 
 ### Navigation
 - **Description**: Contains all navigation-related modules and packages
-- **Primary Language**: Python
-
+- **Purpose**: Autonomous Navigation in a pre-mapped environment.
+  
 ### Manipulation
 - **Description**: Houses all modules and packages related to robotic manipulation
-- **Note**: Avoids creating sub-modules for a cleaner structure
+- **Purpose**: Motion planning and related code for fetch's manipulator
 
 ### Interfaces
 - **Description**: Stores all interfaces, including APIs and UIs
@@ -18,11 +18,11 @@ Our organization's codebase is structured into several specialized repositories,
 
 ### ros1_bridge
 - **Description**: A fork of the ros2/ros1_bridge repository
-- **Primary Language**: C++
 - **Purpose**: Provides bidirectional communication between ROS 1 and ROS 2
 
 ### Perception
 - **Description**: Dedicated to all perception-related code and modules
+- **Purpose**: All perception modules from object detection, segmentation and head servoing
 
 ## Repository Structure
 
